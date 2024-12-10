@@ -94,7 +94,7 @@ BDAmap
   - photo
 ```{r}
 #Adding dolphin images to my dataframe
-dtable$Photo <- c("../Photos/cirrus.jpg", "../Photos/caliban.png",
+dtable$Photo <- c("../Photos/cirrus.JPG", "../Photos/caliban.PNG",
                   "../Photos/bailey.jpg", "../Photos/ely.jpg",
                   "../Photos/cooper.jpg", "../Photos/marley.jpg",
                   "../Photos/brighton.jpg","../Photos/devon.jpg",

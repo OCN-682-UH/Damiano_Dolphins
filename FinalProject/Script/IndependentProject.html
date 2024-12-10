@@ -109,8 +109,8 @@ saveWidget(BDAmap, file = "BDAmap.html")
 --- 
 ---
 ## Where is Bermuda?
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-8c86d39dbf9d5c07cada" style="width:504px;height:504px;"></div>
-<script type="application/json" data-for="htmlwidget-8c86d39dbf9d5c07cada">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["Esri.WorldImagery",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addMarkers","args":[32.32782,-64.83324399999999,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"Royal Naval Dockyard",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addScaleBar","args":[{"maxWidth":100,"metric":true,"imperial":true,"updateWhenIdle":true,"position":"topright"}]}],"setView":[[32.3078,-64.7505],11,[]],"limits":{"lat":[32.32782,32.32782],"lng":[-64.83324399999999,-64.83324399999999]}},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-9394ea98063a7a204755" style="width:504px;height:504px;"></div>
+<script type="application/json" data-for="htmlwidget-9394ea98063a7a204755">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["Esri.WorldImagery",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addMarkers","args":[32.32782,-64.83324399999999,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"Royal Naval Dockyard",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addScaleBar","args":[{"maxWidth":100,"metric":true,"imperial":true,"updateWhenIdle":true,"position":"topright"}]}],"setView":[[32.3078,-64.7505],11,[]],"limits":{"lat":[32.32782,32.32782],"lng":[-64.83324399999999,-64.83324399999999]}},"evals":[],"jsHooks":[]}</script>
 
 ---
 ## Meet the Dolphins!
@@ -122,7 +122,7 @@ saveWidget(BDAmap, file = "BDAmap.html")
 
 ``` r
 #Adding dolphin images to my dataframe
-dtable$Photo &lt;- c("../Photos/cirrus.jpg", "../Photos/caliban.png",
+dtable$Photo &lt;- c("../Photos/cirrus.JPG", "../Photos/caliban.PNG",
                   "../Photos/bailey.jpg", "../Photos/ely.jpg",
                   "../Photos/cooper.jpg", "../Photos/marley.jpg",
                   "../Photos/brighton.jpg","../Photos/devon.jpg",
@@ -137,7 +137,7 @@ glimpse(dtable)
 ## $ Name  &lt;chr&gt; "Cirrus", "Caliban", "Bailey", "Ely", "Cooper", "Marley", "Brigh…
 ## $ Sex   &lt;chr&gt; "F", "F", "F", "F", "M", "F", "F", "F", "F", "M", "M"
 ## $ Age   &lt;int&gt; 49, 33, 30, 20, 13, 13, 9, 9, 4, 3, 3
-## $ Photo &lt;chr&gt; "../Photos/cirrus.jpg", "../Photos/caliban.png", "../Photos/bail…
+## $ Photo &lt;chr&gt; "../Photos/cirrus.JPG", "../Photos/caliban.PNG", "../Photos/bail…
 ```
 
 ---
@@ -187,13 +187,13 @@ readr::write_file(tableHW, file =  "../Output/dolphin_table.html")
    &lt;td style="text-align:left;"&gt; Cirrus &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; F &lt;/td&gt;
    &lt;td style="text-align:right;"&gt; 49 &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; &lt;img src="../Photos/cirrus.jpg" height="50"&gt; &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; &lt;img src="../Photos/cirrus.JPG" height="50"&gt; &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
    &lt;td style="text-align:left;"&gt; Caliban &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; F &lt;/td&gt;
    &lt;td style="text-align:right;"&gt; 33 &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; &lt;img src="../Photos/caliban.png" height="50"&gt; &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; &lt;img src="../Photos/caliban.PNG" height="50"&gt; &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
    &lt;td style="text-align:left;"&gt; Bailey &lt;/td&gt;
