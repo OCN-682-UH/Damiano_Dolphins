@@ -1,0 +1,13 @@
+Variable,Description,Unit
+Date,"day, month, and year of drone flight",
+Time,time of drone flight,military
+Drone,type of drone used,"dji mini 2, dji mavic 2 enterprise advance, dji inspire 2, dji avata 2, dji mini 3 pro, trix strato surfer (base model of PHASM ver. 2), swellpro splashdrone 4"
+Flight Number,number of flight for a specific drone,number 1-13
+Height,height of drone above water (each height was held for 10 seconds),ft
+Temperature ,air temperature,F
+Windspeed,air windspeed ,mph
+Wind Direction,direction wind was blowing,cardinal direction 
+Target,dolphin drone flew over,dolphin name
+Duration of Look,duration of dolphin look for each height,sec
+Number of Look,number of dolphin looks at drone for each height ,sec
+Duration of Submerge,duration of dolphin submerge for each height,sec
