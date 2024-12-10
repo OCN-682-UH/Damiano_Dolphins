@@ -1,5 +1,5 @@
 ---
-title: "Final Presentation"
+title: "Final Project Presentation"
 subtitle: "Dolphins & Drones"
 author: "Savannah Damiano"
 institute: "MBIO 612"
