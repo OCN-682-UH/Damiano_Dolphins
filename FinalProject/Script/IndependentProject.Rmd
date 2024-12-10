@@ -302,8 +302,9 @@ lookplot <- ggplot(meanlook,
 
 ## Plot 1: Dolphin Number of Looks per Drone Type 
 ![Alt text](../Output/lookplot.png)
-```{r echo=FALSE}
 
+```{r echo=FALSE}
+lookplot
 
 ```
 
