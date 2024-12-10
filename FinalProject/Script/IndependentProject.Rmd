@@ -282,7 +282,7 @@ Bar plot
 - Easily view comparison data
 - Discrete data visualization
 - Sometimes a simple visualization can be the most effective 
-```{r, Lookplot}
+```{r, Lookplot1}
 lookplot <- ggplot(meanlook, 
                    aes(x = drone,                        # x axis
                        y = mean_looks,                   # y axis
