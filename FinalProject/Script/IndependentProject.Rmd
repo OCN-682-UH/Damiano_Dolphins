@@ -301,9 +301,10 @@ lookplot <- ggplot(meanlook,
 ---
 
 ## Plot 1: Dolphin Number of Looks per Drone Type 
-
+![Alt text](../Output/lookplot.png)
 ```{r echo=FALSE}
-print(lookplot)
+
+
 ```
 
 ---
@@ -355,8 +356,9 @@ anim_save(file = here("FinalProject", "Output", "flightplot.html"), animation = 
 ```
 ---
 ## Plot 2: Dolphin Number of Looks for Flight Number
+![Alt text](../Output/flightplot.gif)
 ```{r echo=FALSE}
-flightplot
+
 ```
 ---
 ### Conclusion 
