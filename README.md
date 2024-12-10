@@ -4,16 +4,12 @@
 
 This repository holds my OCN 682 Final Project!
 
-Folders include:
+Folders:
 
 * Data
 * Photos
 * Output 
-* Script
-
-Folders:
-
-add links
+* [Script](https://github.com/OCN-682-UH/Damiano_Dolphins/tree/main/FinalProject/Script)
 
 
 ### Project Glimpse
