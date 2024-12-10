@@ -135,11 +135,13 @@ readr::write_file(tableHW, file =  "../Output/dolphin_table.html")
 ---
 ## Table: Meet the Dolphins!
 - There table is too long for the slide.
-- Click [HERE](file:///C:/Users/savan/OneDrive/Desktop/Repositories/Damiano_Dolphins/FinalProject/Output/dolphin_table.html) to see the whole table!
+- Click [HERE](https://github.com/OCN-682-UH/Damiano_Dolphins/blob/main/FinalProject/Output/dolphin_table.html) to see the whole table!
 ```{r echo=FALSE}
 #view table
 tableHW
 ```
+---
+![Alt text](../Photos/dtable.png){width=400px height=200px}
 
 ---
 class: center, middle
