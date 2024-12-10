@@ -6,9 +6,9 @@ This repository holds my OCN 682 Final Project!
 
 Folders:
 
-* Data
-* Photos
-* Output 
+* [Data](https://github.com/OCN-682-UH/Damiano_Dolphins/tree/main/FinalProject/Data)
+* [Photos](https://github.com/OCN-682-UH/Damiano_Dolphins/tree/main/FinalProject/Photos)
+* [Output](https://github.com/OCN-682-UH/Damiano_Dolphins/tree/main/FinalProject/Output) 
 * [Script](https://github.com/OCN-682-UH/Damiano_Dolphins/tree/main/FinalProject/Script)
 
 
